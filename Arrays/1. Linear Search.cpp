@@ -15,3 +15,6 @@ int main()
 	cout<<LinearSearch(arr,4,6)<<endl;
 	cout<<LinearSearch(arr,4,10)<<endl;
 }
+
+//Time Complexity: O(n)
+//Auxiliary Space: O(1)
