@@ -33,3 +33,5 @@ int main()
 	}
 	
 }
+
+//Time complexity: Theta(n)
