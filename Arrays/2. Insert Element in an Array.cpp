@@ -25,3 +25,7 @@ int main()
 	cout<<endl<<Insert(arr,5,10,7,6);
 	
 }
+
+//Time Complexity: O(n)
+//Best case: Insert element at the end- Theta(1)
+//Worst case: Insert element at the first position- Theta(n)
