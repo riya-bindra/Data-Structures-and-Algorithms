@@ -26,4 +26,4 @@ int main()
 }
 
 //Time Complexity: Theta(n)
-//Auxiliary Space: Theta(1)
+//Auxiliary Space: Theta(n)
