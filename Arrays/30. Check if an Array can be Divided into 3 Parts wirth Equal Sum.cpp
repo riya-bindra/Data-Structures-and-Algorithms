@@ -25,6 +25,7 @@ void ThreeEqualParts(int arr[],int n)
 		else if(arr[i]==(2*sumOfEachSubarray))
 		{
 			endIndex2=i;
+			break;
 		}
 	}
 	if(endIndex1!=-1 && endIndex2!=-1)
@@ -54,5 +55,5 @@ int main()
 	return 0;
 }
 
-//Time Complexity: Theta(n)
+//Time Complexity: O(n)
 //Auxiliary Space: Theta(1)
