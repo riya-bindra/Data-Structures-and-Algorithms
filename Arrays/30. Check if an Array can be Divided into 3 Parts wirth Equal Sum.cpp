@@ -55,5 +55,5 @@ int main()
 	return 0;
 }
 
-//Time Complexity: O(n)
+//Time Complexity: Theta(n)
 //Auxiliary Space: Theta(1)
