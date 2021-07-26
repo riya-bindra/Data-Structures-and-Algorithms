@@ -14,7 +14,7 @@ void ThreeEqualParts(int arr[],int n)
 	int sumOfEachSubarray=sum/3;
 	int endIndex1=-1,endIndex2=-1;
 	
-	//Converting arr[i] to Prefix Sum array
+	//Converting arr[] to Prefix Sum array
 	for(int i=1;i<n;i++)
 	{
 		arr[i]=arr[i]+arr[i-1];
