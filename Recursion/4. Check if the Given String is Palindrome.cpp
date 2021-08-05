@@ -25,4 +25,5 @@ int main()
 }
 
 //Time Complexity: O(n) //Atmost n/2 iterations
+//T(n) = T(n-2) + c
 //Auxiliary Space: O(n)
