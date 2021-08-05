@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void printDivisors(int n)
+void printFactors(int n)
 {
 	if(n<=1)
 		return;
@@ -38,13 +38,13 @@ void printDivisors(int n)
 
 int main()
 {
-	printDivisors(15);
+	printFactors(15);
 	cout<<endl<<endl;
-	printDivisors(100);
+	printFactors(100);
 	cout<<endl<<endl;
-	printDivisors(450);
+	printFactors(450);
 	cout<<endl<<endl;
-	printDivisors(84);
+	printFactors(84);
 	cout<<endl<<endl;
 	return 0;
 }
