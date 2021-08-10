@@ -3,7 +3,6 @@
 using namespace std;
 
 //Idea is based on Level Order Traversal
-int maxLevel=0;
 
 struct Node
 {
