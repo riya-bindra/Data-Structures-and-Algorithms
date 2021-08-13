@@ -48,19 +48,19 @@ int main()
 	InorderTraversal(root);
 	cout<<endl<<endl;
 	
-	Insert(root,4);
+	root=Insert(root,4);
 	InorderTraversal(root);
 	cout<<endl<<endl;
 	
-	Insert(root,0);
+	root=Insert(root,0);
 	InorderTraversal(root);
 	cout<<endl<<endl;
 	
-	Insert(root,70);
+	root=Insert(root,70);
 	InorderTraversal(root);
 	cout<<endl<<endl;
 	
-	Insert(root,83);
+	root=Insert(root,83);
 	InorderTraversal(root);
 	cout<<endl<<endl;
 	return 0;
